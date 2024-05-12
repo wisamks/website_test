@@ -1,0 +1,262 @@
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  color: purple;
+}
+
+body {
+  background-color: #e8dcf8;
+  position: relative;
+}
+
+header {
+  position: fixed;
+}
+
+main {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+nav {
+  position: relative;
+}
+
+nav > ul {
+  width: 100vw;
+  list-style: none;
+  background-color: rgb(199, 171, 194);
+  padding-left: 150px;
+
+  display: flex;
+  gap: 30px;
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 60px;
+
+  transition: all 0.5s;
+}
+
+nav li a:hover {
+  font-size: 70px;
+  color: #bbb;
+  background-color: rgb(196, 136, 185);
+  border-radius: 20px;
+}
+
+nav img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 120px;
+  height: 80px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+}
+
+li {
+  font-size: 30px;
+}
+
+#door {
+  transition: all 0.5s;
+}
+#door:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+#cat {
+  transition: all 2s;
+}
+#cat:hover {
+  transform: rotate(360deg);
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#about section {
+  border-radius: 50px;
+  border: 2px solid rgb(205, 67, 247);
+  
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#about section > ol {
+  list-style: none;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gamebox {
+  border: 5px solid purple;
+  width: 400px;
+  height: 100px;
+  border-radius: 30px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#gamebox > select {
+  width: 150px;
+  height: 100px;
+  font-size: 60px;
+  outline: none;
+  border: 1px solid rgb(196, 4, 221);
+  background-color:rgb(210, 176, 248);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#gamebox > select:hover {
+  background-color: rgb(192, 146, 245);
+  transform: scale(1.1);
+}
+
+#selectbox {
+  border: 5px solid purple;
+  width: 400px;
+  height: 100px;
+  border-radius: 30px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#selectbox > select {
+  width: 150px;
+  height: 100px;
+  font-size: 60px;
+  outline: none;
+  border: 1px solid rgb(196, 4, 221);
+  background-color:rgb(210, 176, 248);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#selectbox > select:hover {
+  background-color: rgb(192, 146, 245);
+  transform: scale(1.1);
+}
+
+#selectbox > button {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+  outline: none;
+  border: 1px solid rgb(196, 4, 221);
+  background-color:rgb(210, 176, 248);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+#selectbox > button:hover {
+  background-color: rgb(192, 146, 245);
+  transform: scale(1.1);
+}
+
+#numbox {
+  width: 100vw;
+  height: 500px;
+  border: 5px solid purple;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#numbox > ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.generated {
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+
+
+body > button {
+  background-color: rgb(137, 94, 238);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 25px;
+  
+  position: fixed;
+  bottom: 3vh;
+  right: 3vw;
+
+  transition: all 0.5s;
+}
+body > button:hover {
+  transform: scale(1.1);
+  background-color: rgb(116, 61, 245);
+}
+
+footer {
+  background-color: rgb(199, 171, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>로또복권 추출기</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">홈</a></li>
+          <li><a href="./index.html#about">사용법</a></li>
+          <li><a href="./pension.html">연금복권</a></li>
+          <li><a href="./lotto.html">로또복권</a></li>
+        </ul>
+        <img id="door" src="./cat.png" alt="로고" />
+      </nav>
+    </header>
+    <main>
+      <article id="lotto">
+        <h2>로또복권</h2>
+        <section>
+          <h3>뽑을 게임 개수</h3>
+          <div id="gamebox">
+            <select>
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+            </select>
+          </div>
+          <h3>뽑을 숫자 개수</h3>
+          <div id="selectbox">
+            <select>
+              <option>6</option>
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+            </select>
+            <button id="lottoBtn">추출하기</button>
+          </div>
+        </section>
+        <section>
+          <h3>뽑힌 숫자입니다.</h3>
+          <div id="numbox">
+            <ul></ul>
+          </div>
+        </section>
+      </article>
+    </main>
+    <button id="topBtn">Top</button>
+    <footer>
+      <section>
+        <p>저작권자</p>
+        <p>주소</p>
+        <p>&copy; 저작권 종류</p>
+      </section>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
