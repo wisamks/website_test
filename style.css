@@ -23,6 +23,7 @@ header {
 
 main {
   padding-top: 120px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -120,6 +121,11 @@ li {
 }
 
 #makingImage {
+  display: flex;
+  gap: 30px;
+}
+
+#makingImage > button {
 
   width: 300px;
   height: 100px;
@@ -130,7 +136,7 @@ li {
   border-radius: 10px;
   transition: all 0.5s;
 }
-#makingImage:hover {
+#makingImage > button:hover {
   background-color: rgb(192, 146, 245);
   transform: scale(1.1);
 }
