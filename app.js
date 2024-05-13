@@ -8,8 +8,8 @@ const generateRandom = (e) => {
   const selected = select.value;
   const gameSelected = gameSelect.value;
   const dic = {
-    lottoBtn: 44,
-    pensionBtn: 9
+    lottoBtn: 45,
+    pensionBtn: 10
   };
   const answerBox = document.getElementById('numbox').querySelector('ul');
   while (answerBox.children.length > 0) {
